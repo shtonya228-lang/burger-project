@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+}
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #1C1C1C;
+    color: white;
+}
+.container{
+    width: 1143px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+      align-items: center;
+    gap: 40px;
+}
+button{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #F6762C;
+    color:  white;
+    border: none;
+}
+.banner{
+    width: 1440px;
+    height: 720px;
+    position: relative;
+}
+.banner img{
+    width: 1440px;
+    height: 720px;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
+.text h1{
+    font-size: 57px;
+    font-weight: 500;
+}
+.text p{
+font-size: 18px;
+font-weight: 400;
+}
+.cards{
+border-radius: 5px;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.card{
+    width: 262px;
+    height: 176px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.card img{
+    width: 262px;
+    height: 176px;
+}
+.card h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.card:hover{
+    margin: top 5px; ;
+    width: 270px;
+    transition: 1s;
+}
+
+.king{
+width: 1440px;
+background-color: #1C1C1C;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+gap: 100px;
+}
+.king img{
+width: 500px;
+height: 450px;
+}
+.king-text h3{
+    font-size: 44px;
+    font-weight: 500;
+}
+.king-text p {
+font-size: 16px;
+font-weight: 400;
+}
+.king-text span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F6762C;
+}
+.king-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.down{
+    height: 170px;
+    background-color: rgb(29, 29, 29);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    height: 381px;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 500;
+}
+footer ul li{
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC;
+    list-style: none;
+    margin-top: 10px;
+}
