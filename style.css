@@ -234,9 +234,11 @@ footer ul li{
     .king-text span{
         font-size: 12px;
     }
-    .down h1{
-        width: 100px;
-    }
+     down{
+      width: 100px;
+     }
+       
+    
     button{
     font-size: 7px;
     width: 50px;
